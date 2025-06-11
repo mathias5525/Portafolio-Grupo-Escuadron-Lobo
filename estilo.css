@@ -8,7 +8,7 @@
 
 /*SECCION INICIO*/
 .inicio{
-    background-image: url("https://www.infortec.co/wp-content/uploads/2022/12/Banner-Ciberseguridad-Tec.png");
+    background-image: url("imagenes/fondo.jpg");
     background-size: cover; /*cubro el ancho con la imagen*/
     background-position: center center;
     /*background-color: rgb(111, 125, 171);
