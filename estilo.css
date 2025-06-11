@@ -1,0 +1,123 @@
+/* importamos las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+
+/*SECCION INICIO*/
+.inicio{
+    background-image: url("https://www.infortec.co/wp-content/uploads/2022/12/Banner-Ciberseguridad-Tec.png");
+    background-size: cover; /*cubro el ancho con la imagen*/
+    background-position: center center;
+    /*background-color: rgb(111, 125, 171);
+    background-size: cover;
+    background-position: center center; */
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion .info{
+    padding-bottom: 50px; /*agrego espacio interno en la parte inferior*/
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: white;
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+ /*SECCION DATOS PERSONALES*/
+ .datos{
+    background-color: rgb(187, 190, 200);
+    margin: auto;
+    text-align: center;
+ 
+ }
+ .datos .contenido-seccion .grupo h3{
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+ .datos .contenido-seccion .detalle h4{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 1px;
+ }
+
+ .contenedor-imagen {
+  text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+ .imagen {
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Define el sombreado */
+}
+
+ /*SECCION INTEGRANTES*/
+ .integrantes{
+    background-color: rgb(111, 125, 171);
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+ }
+
+  .integrantes .contenido-seccion h3{
+    font-weight: bolder;
+    font-size: 22px;
+    margin-top: -10px;
+  }
+
+  .integrantes .contenido-seccion p{
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 1px;
+  }
+
+ /*SECCION MATERIAS*/
+ .materias{
+    background-color: rgb(187, 190, 200);
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 30px; /* Aumenta el espacio entre líneas */
+ }
+
+ .materias .contenido-seccion h3{
+    font-weight: bolder;
+    font-size: 22px;
+    margin-top: -10px;
+ }
+
+ .materias .contenido-seccion h4{
+    font-size: 16px;
+    margin-top: -10px;
+    letter-spacing: 1px;
+ }
+
+ .materias .contenido-seccion p{
+    font-size: 16px;
+    margin-top: -10px;
+    letter-spacing: 1px;    
+ }
+
+ /*SECCION CONTACTO*/
+ .contacto{
+    background-color: rgb(111, 125, 171);
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+ }
+ 

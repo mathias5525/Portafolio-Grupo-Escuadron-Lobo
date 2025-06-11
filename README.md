@@ -1,2 +1,3 @@
-# UTN-San Rafael
-Portafolio Grupo Escuadron Lobo
+# CV-proyecto_HTML
+Portafolio web HTML/CSS
+Grupo Escuadron Lobo
