@@ -86,6 +86,18 @@
     letter-spacing: 1px;
   }
 
+.integrantes .contenido-seccion a {
+    font-size: 13px;
+    display: inline-block; /*para que el enlace se comporte como un bloque*/
+    margin-top: 5px; /*margen superior*/
+    padding: 5px 5px; /*espacio interno del enlace*/
+    background-color: #5d4999; /*color de fondo del enlace*/
+    color: #cbbfcc; /*color del texto del enlace*/
+    text-decoration: none; /*sin subrayado*/
+    border-radius: 5px; /*bordes redondeados*/
+    margin-bottom: 5px; /*margen inferior*/
+}
+
  /*SECCION MATERIAS*/
  .materias{
     background-color: rgb(187, 190, 200);
@@ -120,4 +132,26 @@
     text-align: center;
     padding: 0 10px;
  }
+
+.contacto .contenido-seccion .iconos{
+    display: flex;  /*para que los iconos se alineen en fila*/
+    justify-content: center; /*centro los iconos*/
+    margin-top: 10px;  /*margen superior*/
+    padding: 10px;  /*agrego espacio interno*/
+    gap: 20px; /*espacio entre los iconos*/
+}
+
+.contacto .contenido-seccion .iconos a{
+    color: #50407e; /*color de los iconos*/
+    font-size: 30px; /*tamaño de los iconos*/
+    
+}
+
+.contacto .contenido-seccion footer{
+    color: #d7d2e6; /*color del texto del footer*/
+    text-align: center; /*alineo el texto al centro*/
+    padding: 20px; /*espacio interno del footer*/
+    font-size: 15px; /*tamaño del texto*/
+    margin-top: 50px; /*margen superior*/
+}
  
